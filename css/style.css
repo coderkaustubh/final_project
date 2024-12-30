@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.skip-to-main {
+    position: absolute;
+    top: -300px;
+    left: 10px;
+    background-color: yellow;
+    color: #000;
+    padding: 10px;
+
+}
+
+.skip-to-main:focus {
+    top: 10px;
+}
+
+.current {
+    font-weight: bold;
+}
+
+h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header img {
+    border-radius: 20px;
+    margin: 30px auto;
+    display: block;
+}
+
+header img:hover {
+    outline: 5px solid black;
+}
+
+.neighborhood-gallery {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.neighborhood-gallery img {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.neighborhood-gallery img:hover {
+    opacity: 1;
+    outline: 5px solid black;
+}
+
+.parks-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.parks-gallery img {
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.parks-gallery img:hover {
+    opacity: 1;
+    outline: 2px solid black;
+}
+
+.parks-gallery img:nth-child(even) {
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: burlywood;
+}
